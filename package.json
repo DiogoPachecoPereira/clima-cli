@@ -1,0 +1,23 @@
+{
+  "name": "cli",
+  "version": "1.0.0",
+  "description": "",
+  "preferGlobal": true,
+  "files": [
+    "./bin"
+  ],
+  "bin": {
+    "search-files": "./bin/search-files-cli"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DiogoPachecoPereira/node-cli.git"
+  },
+  "keywords": [],
+  "author": "Diogo Pacheco Pereira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DiogoPachecoPereira/node-cli/issues"
+  },
+  "homepage": "https://github.com/DiogoPachecoPereira/node-cli#readme"
+}
