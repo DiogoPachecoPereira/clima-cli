@@ -1,23 +1,21 @@
 {
-  "name": "cli",
-  "version": "1.0.0",
-  "description": "",
+  "name": "clima-cli",
+  "version": "0.0.1",
+  "description": "CLI que mostra o clima de uma cidade em tempo real",
   "preferGlobal": true,
-  "files": [
-    "./bin"
-  ],
   "bin": {
-    "search-files": "./bin/search-files-cli"
+    "clima": "./bin/clima"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/DiogoPachecoPereira/node-cli.git"
-  },
+  "files": [
+    "bin",
+    "src"
+  ],
   "keywords": [],
-  "author": "Diogo Pacheco Pereira",
+  "author": "Diogo Pacheco",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/DiogoPachecoPereira/node-cli/issues"
-  },
-  "homepage": "https://github.com/DiogoPachecoPereira/node-cli#readme"
+  "dependencies": {
+    "commander": "^2.20.0",
+    "esm": "^3.2.25",
+    "node-fetch": "^2.5.0"
+  }
 }
